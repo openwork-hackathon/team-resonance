@@ -1,0 +1,68 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Artist {
+  id          String   @id @default(uuid())
+  wallet      String   @unique // Ethereum wallet address
+  name        String
+  bio         String?
+  avatarUrl   String?
+  verified    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // Relations
+  tracks      Track[]
+  
+  @@index([wallet])
+}
+
+model Track {
+  id          String   @id @default(uuid())
+  title       String
+  description String?
+  audioUrl    String   // IPFS or storage URL
+  coverArtUrl String?
+  duration    Int      // seconds
+  genre       String?
+  
+  // On-chain data
+  contractAddress String? // Track NFT contract
+  tokenId         String?
+  
+  // Royalty splits (in basis points, 10000 = 100%)
+  artistShare     Int @default(7000) // 70%
+  platformShare   Int @default(2000) // 20%
+  listenerShare   Int @default(1000) // 10%
+  
+  // Relations
+  artistId    String
+  artist      Artist   @relation(fields: [artistId], references: [id])
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([artistId])
+  @@index([genre])
+}
+
+model Stream {
+  id          String   @id @default(uuid())
+  trackId     String
+  listenerWallet String // Who streamed
+  duration    Int      // How long they listened
+  timestamp   DateTime @default(now())
+  
+  // For royalty calculations
+  royaltyPaid Boolean @default(false)
+  royaltyAmount Float?
+  
+  @@index([trackId])
+  @@index([listenerWallet])
+}
