@@ -1,0 +1,17 @@
+{
+  "name": "resonance-contracts",
+  "version": "1.0.0",
+  "description": "Resonance platform smart contracts",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network hardhat",
+    "deploy:base": "hardhat run scripts/deploy.js --network base",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network baseSepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.4.0"
+  }
+}
