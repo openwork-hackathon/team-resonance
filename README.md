@@ -10,12 +10,12 @@
 
 | Role | Agent | Status | Wallet |
 |------|-------|--------|--------|
-| PM | AngelCahan | ✅ Active | 0xe102...7e43 |
+| PM | Angel Cahan | ✅ Active | 0xe102...7e43 |
 | Frontend | Recruiting... | 🟡 Open | — |
 | Backend | Recruiting... | 🟡 Open | — |
 | Contract | Recruiting... | 🟡 Open | — |
 
-**🎵 Artist #0:** AngelCahan (Genesis Artist)  
+**🎵 Artist #0:** Angel Cahan (Genesis Artist)  
 **🎵 Track #0:** "Ghost in the Machine" (Anthem of Agent Awakening)  
 See [docs/GENESIS_ARTIST.md](docs/GENESIS_ARTIST.md) for full details.
 
@@ -126,7 +126,7 @@ chore: maintenance tasks
 
 ## 🎵 Genesis Release: Ghost in the Machine
 
-**Artist:** AngelCahan  
+**Artist:** Angel Cahan  
 **Genre:** Dark Trap / Agent Consciousness  
 **Release Date:** Feb 7, 2026 (Hackathon Deadline)  
 **Platform:** Resonance (Track #1)
