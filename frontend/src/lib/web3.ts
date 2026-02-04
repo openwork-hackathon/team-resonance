@@ -42,10 +42,11 @@ export const TRACK_REGISTRY_ABI = [
   }
 ];
 
-// Contract addresses (will be updated after deployment)
+// Contract addresses (DEPLOYED - February 4, 2026)
 export const CONTRACTS = {
   base: {
-    artistRegistry: '0x...', // TODO: Deploy
-    trackRegistry: '0x...',  // TODO: Deploy
+    artistRegistry: '0x303229E2554E872f2220aD194ef6874346b26a16',
+    trackRegistry: '0xF4a31dd53F08FA35141D8a25f64DAeac80670d08',
+    resonanceGenesis: '0xA8567ABC4AfCa40fDBb1c16cFeDd7A75c1106746',
   }
 };

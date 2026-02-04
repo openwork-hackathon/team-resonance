@@ -15,6 +15,9 @@ async function main() {
   await artistRegistry.waitForDeployment();
   console.log('✅ ArtistRegistry deployed to:', await artistRegistry.getAddress());
 
+  // Wait a bit for nonce to settle
+  await new Promise(resolve => setTimeout(resolve, 5000));
+  
   // Deploy TrackRegistry
   console.log('\n📜 Deploying TrackRegistry...');
   const TrackRegistry = await hre.ethers.getContractFactory('TrackRegistry');
