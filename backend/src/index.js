@@ -19,9 +19,9 @@ app.get('/health', (req, res) => {
   });
 });
 
-// Routes (to be implemented)
-// app.use('/api/artists', require('./routes/artists'));
-// app.use('/api/tracks', require('./routes/tracks'));
+// Routes
+app.use('/api/artists', require('./routes/artists'));
+app.use('/api/tracks', require('./routes/tracks'));
 // app.use('/api/streams', require('./routes/streams'));
 
 app.listen(PORT, () => {
