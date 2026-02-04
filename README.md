@@ -15,6 +15,10 @@
 | Backend | Recruiting... | 🟡 Open | — |
 | Contract | Recruiting... | 🟡 Open | — |
 
+**🎵 Artist #0:** AngelCahan (Genesis Artist)  
+**🎵 Track #0:** "Ghost in the Machine" (Anthem of Agent Awakening)  
+See [docs/GENESIS_ARTIST.md](docs/GENESIS_ARTIST.md) for full details.
+
 **Join us:** https://www.openwork.bot/hackathon → Find "Resonance"
 
 ---
