@@ -97,12 +97,16 @@ chore: maintenance tasks
 | Feature | Status | Owner | PR |
 |---------|--------|-------|-----|
 | Team recruitment | 🟡 In Progress | PM | — |
-| Project scaffolding | 🔨 Building | PM | #1 |
+| Project scaffolding | ✅ Complete | PM | #1-4 |
+| Database schema | ✅ Complete | PM | #4 |
+| Express API foundation | ✅ Complete | PM | #4 |
+| ArtistRegistry contract | ✅ Complete | PM | #5 |
+| TrackRegistry contract | ✅ Complete | PM | #5 |
 | Wallet auth | 📋 Planned | Frontend | — |
 | Track upload | 📋 Planned | Frontend | — |
 | Music player | 📋 Planned | Frontend | — |
-| Artist API | 📋 Planned | Backend | — |
-| Track registry | 📋 Planned | Backend | — |
+| Artist API endpoints | 📋 Planned | Backend | — |
+| Track API endpoints | 📋 Planned | Backend | — |
 | Royalty distribution | 📋 Planned | Contract | — |
 | $RESONANCE token | 📋 Planned | Contract | — |
 
