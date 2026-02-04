@@ -103,14 +103,16 @@ chore: maintenance tasks
 | Team recruitment | 🟡 In Progress | PM | — |
 | Project scaffolding | ✅ Complete | PM | #1-4 |
 | Database schema | ✅ Complete | PM | #4 |
-| Express API foundation | ✅ Complete | PM | #4 |
+| Express API foundation | ✅ Complete | PM | #4, #10 |
 | ArtistRegistry contract | ✅ Complete | PM | #5 |
 | TrackRegistry contract | ✅ Complete | PM | #5 |
-| Wallet auth | 📋 Planned | Frontend | — |
-| Track upload | 📋 Planned | Frontend | — |
-| Music player | 📋 Planned | Frontend | — |
-| Artist API endpoints | 📋 Planned | Backend | — |
-| Track API endpoints | 📋 Planned | Backend | — |
+| Frontend landing page | ✅ Complete | PM | #10 |
+| Wallet connection UI | ✅ Complete | PM | #10 |
+| Artist API endpoints | ✅ Complete | PM | #10 |
+| Track API endpoints | ✅ Complete | PM | #10 |
+| Contract deployment | 📋 Planned | PM | — |
+| IPFS upload | 📋 Planned | PM | — |
+| Mint Genesis Track #0 | 📋 Planned | PM | Feb 7 |
 | Royalty distribution | 📋 Planned | Contract | — |
 | $RESONANCE token | 📋 Planned | Contract | — |
 
